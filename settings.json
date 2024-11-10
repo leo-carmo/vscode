@@ -18,61 +18,64 @@
 
 // --- Fontes ---
 /*
-"editor.fontFamily": "Andale Mono",
+"editor.fontFamily": "Bitstream Vera Sans Mono",
 "editor.fontFamily": "Anonymous Pro",
 "editor.fontFamily": "B612 Mono",
-"editor.fontFamily": "Bitstream Vera Sans Mono",
 "editor.fontFamily": "Cascadia Code",
 */
-/*
 "editor.fontFamily": "Courier Prime Code",
+/*
 "editor.fontFamily": "Consolas",
 "editor.fontFamily": "Cousine",
 "editor.fontFamily": "DejaVu Sans Mono",
-"editor.fontFamily": "Droid Sans Mono",
 */
 /*
+"editor.fontFamily": "Droid Sans Mono",
 "editor.fontFamily": "Envy Code",
 "editor.fontFamily": "Excalibur Monospace",
 "editor.fontFamily": "Fira Code",
+*/
+/*
 "editor.fontFamily": "Fira Code Light",
 "editor.fontFamily": "Go Mono",
 "editor.fontFamily": "Geist Mono",
+"editor.fontFamily": "Hack",
 */
 /*
-"editor.fontFamily": "Hack",
-"editor.fontFamily": "Hasklig",
 "editor.fontFamily": "Iosevka",
+"editor.fontFamily": "Hasklig",
 "editor.fontFamily": "Inconsolata",
 "editor.fontFamily": "Input Mono",
 */
-"editor.fontFamily": "JetBrains Mono",
 /*
+"editor.fontFamily": "JetBrains Mono",
 "editor.fontFamily": "Letter Gothic Std",
 "editor.fontFamily": "Liberation Mono",
 "editor.fontFamily": "Lucida Console",
+/*
 "editor.fontFamily": "Menlo",
 "editor.fontFamily": "Monaco",
-*/
-/*
 "editor.fontFamily": "Monoid",
 "editor.fontFamily": "MonospaceTypewriter",
+*/
+/*
 "editor.fontFamily": "NK57 Monospace Cd Rg",
 "editor.fontFamily": "Office Code Pro",
 "editor.fontFamily": "Overpass Mono",
-/*
 "editor.fontFamily": "Oxygen Mono",
+*/
+/*
 "editor.fontFamily": "PragmataPro",
 "editor.fontFamily": "ProFont",
 "editor.fontFamily": "Source Code Pro",
-"editor.fontFamily": "Space Mono",
+"editor.fontFamily": "SF Mono",
 */
 /*
+"editor.fontFamily": "Space Mono",
 "editor.fontFamily": "Sudo",
 "editor.fontFamily": "Verily Serif Mono",
 "editor.fontFamily": "Victor Mono",
 */
-
 // --- Syntax-based settings ---
 "[ahk2]":
   {
