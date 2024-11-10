@@ -1,0 +1,10 @@
+AutoHotKey:
+✔ Fonte da barra de "título" @done (11/7/2024, 1:59:31 AM)
+✔ Teste @done (11/7/2024, 1:40:54 AM)
+
+Keyboard shortcuts:
+☐ Break selection into lines
+☐ Click with Ctrl to place multiple cursors
+
+Languages:
+☐ Rust fica dando problema quando workspace de AutoHotKey é o ativo

@@ -1,0 +1,50 @@
+.find-widget {
+    width: 900px !important; /* Set to desired width */
+}
+
+.monaco-editor .find-widget textarea {
+    font-family: 'Inconsolata', monospace !important;
+    font-size: 14pt !important;
+}
+
+.monaco-workbench .part.statusbar {
+    font-family: "Segoe UI Semibold", monospace; 
+    font-size: 1.1em; 
+}
+
+.monaco-workbench .part.titlebar {
+    font-family: "Segoe UI Semibold", monospace; 
+    font-size: 1.1em;
+}
+
+.quick-input-widget {
+    font-family: "JetBrains Mono", monospace; 
+    font-size: 1.0em;
+    background-color: black !important;
+}
+
+.quick-input-list {
+    /* background-color: white !important; */
+}
+
+.quick-input-list .monaco-list-row {
+    color: white !important; /* For text inside the command palette */
+    background-color: black !important;
+}
+
+.quick-input-list .monaco-list-row.focused {
+    background-color: #444444 !important;
+    color: #ffffff !important;
+}
+
+.explorer-viewlet .monaco-tree-row .label-name {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-family: "Segoe UI Semibold", monospace !important;
+}
+
+.explorer-viewlet .monaco-list-row {
+    height: auto !important;
+    padding: 0px 0 !important; 
+    font-family: "Segoe UI Semibold", monospace !important;
+}

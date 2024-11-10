@@ -1,0 +1,24 @@
+{
+    "Insert code": {
+        "prefix": "insco",
+        "body": [
+            "SetTitleMatchMode \"regex\"",
+            "#SingleInstance force",
+            "#Requires AutoHotkey v2.0",
+            "",
+            "~>^Numpadsub::Suspend",
+            ":*:okkk::",
+            "{",
+            "    ExitApp",
+            "}",
+            "",
+            ">^NumpadEnter::ExitApp",
+            "",
+            "'::",
+            "{",
+            "   $0",
+            "}"
+        ],
+        "description": "Insere código padrão para scripts do AutoHotKey v2."
+    }
+}
