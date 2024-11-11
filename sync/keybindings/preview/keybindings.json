@@ -1,0 +1,160 @@
+// First ones
+[
+{
+  "key": "ctrl+shift+w",
+  "command": "editor.action.toggleWordWrap"
+},
+{
+  "key": "alt+z",
+  "command": "-editor.action.toggleWordWrap"
+},
+{
+  "key": "alt+q",
+  "command": "workbench.action.closeActiveEditor"
+},
+{
+  "key": "ctrl+w",
+  "command": "-workbench.action.closeActiveEditor"
+},
+
+// --- Config files ---
+
+{
+  "key": "ctrl+alt+k",
+  "command": "workbench.action.quickOpen",
+  "args": "C:\\Users\\me\\AppData\\Roaming\\Code\\User\\keybindings.json"
+},
+{
+  "key": "ctrl+alt+s",
+  "command": "workbench.action.quickOpen",
+  "args": "C:\\Users\\me\\AppData\\Roaming\\Code\\User\\settings.json"
+},
+{
+  "key": "ctrl+alt+u",
+  "command": "workbench.action.quickOpen",
+  "args": "C:\\Users\\me\\AppData\\Roaming\\Code\\User\\ui.css"
+},
+{
+  "key": "ctrl+alt+t",
+  "command": "workbench.action.quickOpen",
+  "args": "C:\\Users\\me\\AppData\\Roaming\\Code\\User\\vsc_tasks.todo"
+},
+
+// --- Selection and Copy ---
+{
+  "key": "ctrl+shift+d",
+  "command": "editor.action.copyLinesDownAction",
+  "when": "editorTextFocus && !editorReadonly"
+},
+{
+  "key": "shift+alt+down",
+  "command": "-editor.action.copyLinesDownAction",
+  "when": "editorTextFocus && !editorReadonly"
+},
+{
+  "key": "ctrl+d",
+  "command": "editor.action.addSelectionToNextFindMatch",
+  "when": "editorFocus"
+},
+{
+  "key": "ctrl+d",
+  "command": "-editor.action.addSelectionToNextFindMatch",
+  "when": "editorFocus"
+},
+
+// --- Convert case ---
+{
+  "key": "ctrl+k ctrl+l",
+  "command": "editor.action.transformToLowercase"
+},
+{
+  "key": "ctrl+k ctrl+u",
+  "command": "editor.action.transformToUppercase"
+},
+{
+  "key": "ctrl+k ctrl+h",
+  "command": "editor.action.transformToTitlecase"
+}
+
+// --- Editor Layout / Minimap ---
+{
+  "key": "ctrl+k ctrl+m",
+  "command": "editor.action.toggleMinimap"
+},
+{
+  "key": "shift+alt+1",
+  "command": "workbench.action.editorLayoutSingle"
+},
+{
+  "key": "shift+alt+2",
+  "command": "workbench.action.splitEditorLeft"
+},
+{
+  "key": "ctrl+k ctrl+oem_5",
+  "command": "-workbench.action.splitEditorLeft"
+},
+// --- Miscellaneous ---
+{
+  "key": "alt+d",
+  "command": "extension.selectEitherQuote",
+  "when": "editorTextFocus && resourceExtname != .todo"
+},
+{
+  "key": "ctrl+alt+f5",
+  "command": "workbench.action.terminal.runActiveFile"
+},
+{
+  "key": "ctrl+shift+l",
+  "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+click",
+  "command": "editor.action.addCursorAtPosition",
+  "when": "editorTextFocus"
+},
+
+// Convert current syntax to plain text
+{
+  "key": "ctrl+alt+p",
+  "command": "workbench.action.editor.changeLanguageMode",
+  "args": "plaintext"
+}
+{
+  "key": "ctrl+alt+i",
+  "command": "workbench.action.editor.changeLanguageMode",
+  "args": "markdown"
+}
+
+// --- Python ---
+{
+  "key": "Ctrl+f9",
+  "command": "python.execInTerminal-icon",
+  "when": "editorLangId == 'python'"
+},
+{
+  "key": "ctrl+alt+c",
+  "command": "task.cancel",
+  "when": "editorTextFocus"
+},
+{
+  "key": "alt+c",
+  "command": "-task.cancel",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+shift+j",
+  "command": "editor.action.joinLines"
+},
+{
+  "key": "alt+a",
+  "command": "editor.action.selectHighlights",
+  "when": "editorFocus"
+},
+{
+  "key": "ctrl+shift+l",
+  "command": "-editor.action.selectHighlights",
+  "when": "editorFocus"
+},
+
+]

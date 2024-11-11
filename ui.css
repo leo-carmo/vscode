@@ -22,8 +22,8 @@
 }
 
 .monaco-workbench .tabs-container .tab-label {
-    font-family: "Segoe UI Semibold", sans-serif; /* Your desired font */
-    font-size: 13px; /* Adjust as necessary */
+    font-family: "Segoe UI Semibold", sans-serif;
+    font-size: 12px; 
     font-weight: normal;
 }
 

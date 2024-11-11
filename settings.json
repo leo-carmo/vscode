@@ -13,7 +13,8 @@
 "security.workspace.trust.untrustedFiles": "open",
 "workbench.list.mouseWheelScrollSensitivity": 3.0,
 "explorer.compactFolders": true,
-"window.titleBarStyle": "native",
+// "window.titleBarStyle": "native",
+"window.titleBarStyle": "modern",
 "editor.multiCursorModifier": "ctrlCmd",
 // "window.titleBarStyle": "custom",
 
@@ -104,7 +105,7 @@
     "editor.tabSize": 4,
     "editor.fontFamily": "'JetBrains Mono', Hack, monospace"
   },
-  "workbench.colorTheme": "Neon Bunny",
+  "workbench.colorTheme": "Abyss",
 
 // --- Language settings ---
 
@@ -126,7 +127,6 @@
     "file:///C:/Users/me/AppData/Roaming/Code/User/ui.css"
   ],
   "workbench.activityBar.location": "top",
-  "window.customTitleBarVisibility": "never",
 
   "workbench.editor.tabSizing": "fixed",
   
@@ -152,5 +152,7 @@
 },
 "workbench.editor.tabSizingFixedMaxWidth": 400,
 "workbench.editor.tabSizingFixedMinWidth": 100,
+"git.confirmSync": false,
+"workbench.editor.editorActionsLocation": "hidden",
 
 }
