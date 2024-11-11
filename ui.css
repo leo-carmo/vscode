@@ -17,6 +17,16 @@
     font-size: 1.1em;
 }
 
+.monaco-workbench .part.editor .tabs-container .tab {
+    min-width: 220px; /* Adjust width */
+}
+
+.monaco-workbench .tabs-container .tab-label {
+    font-family: "Segoe UI Semibold", sans-serif; /* Your desired font */
+    font-size: 13px; /* Adjust as necessary */
+    font-weight: normal;
+}
+
 .quick-input-widget {
     font-family: "JetBrains Mono", monospace; 
     font-size: 1.0em;

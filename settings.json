@@ -9,22 +9,23 @@
 "editor.semanticHighlighting.enabled": true,
 "editor.tabSize": 4,
 "editor.wordWrap": "on",
+"files.encoding": "utf8bom",
 "security.workspace.trust.untrustedFiles": "open",
 "workbench.list.mouseWheelScrollSensitivity": 3.0,
 "explorer.compactFolders": true,
 "window.titleBarStyle": "native",
-"editor.multiCursorModifier": "ctrlCmd"
+"editor.multiCursorModifier": "ctrlCmd",
 // "window.titleBarStyle": "custom",
 
 // --- Fontes ---
 /*
-"editor.fontFamily": "Bitstream Vera Sans Mono",
 "editor.fontFamily": "Anonymous Pro",
 "editor.fontFamily": "B612 Mono",
+"editor.fontFamily": "Bitstream Vera Sans Mono",
 "editor.fontFamily": "Cascadia Code",
 */
-"editor.fontFamily": "Courier Prime Code",
 /*
+"editor.fontFamily": "Courier Prisme Code",
 "editor.fontFamily": "Consolas",
 "editor.fontFamily": "Cousine",
 "editor.fontFamily": "DejaVu Sans Mono",
@@ -47,8 +48,8 @@
 "editor.fontFamily": "Inconsolata",
 "editor.fontFamily": "Input Mono",
 */
-/*
 "editor.fontFamily": "JetBrains Mono",
+/*
 "editor.fontFamily": "Letter Gothic Std",
 "editor.fontFamily": "Liberation Mono",
 "editor.fontFamily": "Lucida Console",
@@ -76,11 +77,20 @@
 "editor.fontFamily": "Verily Serif Mono",
 "editor.fontFamily": "Victor Mono",
 */
+
+"terminal.integrated.fontFamily": "Iosevka",
+
 // --- Syntax-based settings ---
 "[ahk2]":
   {
     "editor.tabSize": 4,
     "editor.fontFamily": "'JetBrains Mono', monospace"
+  },
+
+"[json]": 
+  {
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Geist Mono', 'Cascadia Code', 'Aptos Mono', monospace"
   },
 
 "[jsonc]": 
@@ -118,8 +128,9 @@
   "workbench.activityBar.location": "top",
   "window.customTitleBarVisibility": "never",
 
+  "workbench.editor.tabSizing": "fixed",
+  
   "workbench.colorCustomizations": {
-
 
   // Git decoration color for modified files
   "gitDecoration.modifiedResourceForeground": "#A0A0A0", 
@@ -139,5 +150,7 @@
   // Selection highlight border (optional, a clear border to differentiate the selected instance)
   "editor.selectionHighlightBorder": "#00AACC" // Slightly darker turquoise for clear borders around selected matches
 },
+"workbench.editor.tabSizingFixedMaxWidth": 400,
+"workbench.editor.tabSizingFixedMinWidth": 100,
 
 }

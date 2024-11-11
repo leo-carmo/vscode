@@ -2,8 +2,8 @@ AutoHotKey:
 ✔ Fonte da barra de "título" @done (11/7/2024, 1:59:31 AM)
 
 Keyboard shortcuts:
-☐ Break selection into lines
-☐ Click with Ctrl to place multiple cursors
+✔ Break selection into lines @done (11/10/2024, 12:40:36 PM)
+✔ Click with Ctrl to place multiple cursors instead of Alt @done (11/10/2024, 12:40:38 PM)
 
 Languages:
 ☐ Rust-analyzer buzzes when AutoHotKey is the active workspace
