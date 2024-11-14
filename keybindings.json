@@ -74,7 +74,7 @@
 {
   "key": "ctrl+k ctrl+h",
   "command": "editor.action.transformToTitlecase"
-}
+},
 
 // --- Editor Layout / Minimap ---
 {
@@ -119,12 +119,12 @@
   "key": "ctrl+alt+p",
   "command": "workbench.action.editor.changeLanguageMode",
   "args": "plaintext"
-}
+},
 {
   "key": "ctrl+alt+i",
   "command": "workbench.action.editor.changeLanguageMode",
   "args": "markdown"
-}
+},
 
 // --- Python ---
 {
@@ -132,6 +132,9 @@
   "command": "python.execInTerminal-icon",
   "when": "editorLangId == 'python'"
 },
+
+
+// --- Outras ---
 {
   "key": "ctrl+alt+c",
   "command": "task.cancel",
@@ -155,6 +158,30 @@
   "key": "ctrl+shift+l",
   "command": "-editor.action.selectHighlights",
   "when": "editorFocus"
+},
+{
+  "key": "ctrl+alt+1",
+  "command": "md-shortcut.toggleTitleH1"
+},
+{
+  "key": "ctrl+alt+2",
+  "command": "md-shortcut.toggleTitleH2"
+},
+{
+  "key": "ctrl+alt+3",
+  "command": "md-shortcut.toggleTitleH3"
+},
+{
+  "key": "ctrl+alt+4",
+  "command": "md-shortcut.toggleTitleH4"
+},
+{
+  "key": "ctrl+alt+5",
+  "command": "md-shortcut.toggleTitleH5"
+},
+{
+  "key": "ctrl+alt+6",
+  "command": "md-shortcut.toggleTitleH6"
 },
 
 ]

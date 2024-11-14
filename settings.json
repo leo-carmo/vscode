@@ -14,7 +14,7 @@
 "workbench.list.mouseWheelScrollSensitivity": 3.0,
 "explorer.compactFolders": true,
 // "window.titleBarStyle": "native",
-"window.titleBarStyle": "modern",
+"window.titleBarStyle": "native",
 "editor.multiCursorModifier": "ctrlCmd",
 // "window.titleBarStyle": "custom",
 
@@ -69,6 +69,7 @@
 /*
 "editor.fontFamily": "PragmataPro",
 "editor.fontFamily": "ProFont",
+"editor.fontFamily": "Roboto Mono",
 "editor.fontFamily": "Source Code Pro",
 "editor.fontFamily": "SF Mono",
 */
@@ -97,15 +98,24 @@
 "[jsonc]": 
   {
     "editor.tabSize": 2,
-    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Geist Mono', 'Cascadia Code', 'Aptos Mono', monospace"
+    "editor.fontFamily": "'JetBrains Mono','Roboto Mono', Consolas, 'Geist Mono', 'Cascadia Code', 'Aptos Mono', monospace"
   },
+
+"[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+},
 
 "[python]": 
   {
     "editor.tabSize": 4,
     "editor.fontFamily": "'JetBrains Mono', Hack, monospace"
   },
-  "workbench.colorTheme": "Abyss",
+  "workbench.colorTheme": "Markdown Editor Dark",
 
 // --- Language settings ---
 
@@ -153,6 +163,16 @@
 "workbench.editor.tabSizingFixedMaxWidth": 400,
 "workbench.editor.tabSizingFixedMinWidth": 100,
 "git.confirmSync": false,
-"workbench.editor.editorActionsLocation": "hidden",
+"workbench.editor.editorActionsLocation": "titleBar",
+"diffEditor.ignoreTrimWhitespace": false,
+"window.customTitleBarVisibility": "never",
+"javascript.suggest.enabled": false,
+"typescript.suggest.enabled": false,
+"markdown.extension.bold.indicator": "__",
+
+"markdown.extension.list.indentationSize": -1,  // No auto-indent for lists
+"markdown.extension.list.toggleCheckbox": false,  // Disable checkbox toggling
+"markdown.extension.list.autoFormatting": false,  // Disable auto-formatting lists
+
 
 }
