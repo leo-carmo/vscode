@@ -115,7 +115,7 @@
     "editor.tabSize": 4,
     "editor.fontFamily": "'JetBrains Mono', Hack, monospace"
   },
-  "workbench.colorTheme": "Markdown Editor Dark",
+  "workbench.colorTheme": "Ayu Mirage",
 
 // --- Language settings ---
 
@@ -172,7 +172,23 @@
 
 "markdown.extension.list.indentationSize": -1,  // No auto-indent for lists
 "markdown.extension.list.toggleCheckbox": false,  // Disable checkbox toggling
-"markdown.extension.list.autoFormatting": false,  // Disable auto-formatting lists
+"markdown.extension.list.autoFormatting": false,
+"markdownShortcuts.bold.marker": "__",
+"markdownShortcuts.italics.marker": "*", // Disable auto-formatting lists
 
+"search.exclude": {
+    "**/*.png": true,
+    "**/*.jpg": true,
+    "**/*.jpeg": true,
+    "**/*.gif": true,
+    "**/*.bmp": true
+},
+"files.exclude": {
+    "**/*.png": true,
+    "**/*.jpg": true,
+    "**/*.jpeg": true,
+    "**/*.gif": true,
+    "**/*.bmp": true
+}
 
 }

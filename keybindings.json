@@ -127,14 +127,12 @@
 },
 
 // --- Python ---
+
 {
   "key": "Ctrl+f9",
   "command": "python.execInTerminal-icon",
   "when": "editorLangId == 'python'"
 },
-
-
-// --- Outras ---
 {
   "key": "ctrl+alt+c",
   "command": "task.cancel",
@@ -159,29 +157,48 @@
   "command": "-editor.action.selectHighlights",
   "when": "editorFocus"
 },
+
+// --- Markdown ---
+
 {
-  "key": "ctrl+alt+1",
-  "command": "md-shortcut.toggleTitleH1"
+  "key": "ctrl+shift+1",
+  "command": "md-shortcut.toggleTitleH1",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
 },
 {
-  "key": "ctrl+alt+2",
-  "command": "md-shortcut.toggleTitleH2"
+  "key": "ctrl+shift+2",
+  "command": "md-shortcut.toggleTitleH2",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
 },
 {
-  "key": "ctrl+alt+3",
-  "command": "md-shortcut.toggleTitleH3"
+  "key": "ctrl+shift+3",
+  "command": "md-shortcut.toggleTitleH3",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
 },
 {
-  "key": "ctrl+alt+4",
-  "command": "md-shortcut.toggleTitleH4"
+  "key": "ctrl+shift+4",
+  "command": "md-shortcut.toggleTitleH4",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
 },
 {
-  "key": "ctrl+alt+5",
-  "command": "md-shortcut.toggleTitleH5"
+  "key": "ctrl+shift+5",
+  "command": "md-shortcut.toggleTitleH5",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
 },
 {
-  "key": "ctrl+alt+6",
-  "command": "md-shortcut.toggleTitleH6"
+  "key": "ctrl+shift+6",
+  "command": "md-shortcut.toggleTitleH6",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
 },
+{
+  "key": "ctrl+i",
+  "command": "md-shortcut.toggleItalic",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
+},
+{
+  "key": "ctrl+b",
+  "command": "md-shortcut.toggleBold",
+  "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
+}
 
 ]
