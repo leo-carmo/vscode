@@ -1,5 +1,5 @@
 .find-widget {
-    width: 900px !important; /* Set to desired width */
+    width: 900px !important;
 }
 
 .monaco-editor .find-widget textarea {
@@ -9,7 +9,7 @@
 
 .monaco-workbench .part.statusbar {
     font-family: "Segoe UI Semibold", monospace; 
-    font-size: 1.1em; 
+    font-size: 1.2em; 
 }
 
 .monaco-workbench .part.titlebar {
@@ -33,10 +33,11 @@
     background-color: black !important;
 }
 
+/*
 .quick-input-list {
-    /* background-color: white !important; */
+     background-color: white !important; 
 }
-
+*/
 .quick-input-list .monaco-list-row {
     color: white !important; /* For text inside the command palette */
     background-color: black !important;

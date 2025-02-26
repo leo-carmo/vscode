@@ -113,6 +113,20 @@
   "command": "editor.action.addCursorAtPosition",
   "when": "editorTextFocus"
 },
+{
+  "key": "ctrl+shift+j",
+  "command": "editor.action.joinLines"
+},
+{
+  "key": "alt+a",
+  "command": "editor.action.selectHighlights",
+  "when": "editorFocus"
+},
+{
+  "key": "ctrl+shift+l",
+  "command": "-editor.action.selectHighlights",
+  "when": "editorFocus"
+},
 
 // Convert current syntax to plain text
 {
@@ -128,35 +142,36 @@
 
 // --- Python ---
 
+// {
+//   "key": "Ctrl+f9",
+//   "command": "python.execInTerminal-icon",
+//   "when": "editorLangId == 'python'"
+// },
+// --- Python ---
 {
-  "key": "Ctrl+f9",
-  "command": "python.execInTerminal-icon",
-  "when": "editorLangId == 'python'"
+  "key": "f1",
+  "command": "workbench.action.terminal.sendSequence",
+  "args": {
+    "text": "python ${file}\u000D"
+  },
+  "when": "editorTextFocus && !terminalFocus && editorLangId == 'python'"
 },
+// {
+//   "key": "ctrl+f9",
+//   "command": "python.runAndFocus",
+//   "when": "editorLangId == 'python'"
+// },
 {
   "key": "ctrl+alt+c",
   "command": "task.cancel",
-  "when": "editorTextFocus"
+  "when": "editorText1ocus"
 },
 {
   "key": "alt+c",
   "command": "-task.cancel",
   "when": "editorTextFocus"
 },
-{
-  "key": "ctrl+shift+j",
-  "command": "editor.action.joinLines"
-},
-{
-  "key": "alt+a",
-  "command": "editor.action.selectHighlights",
-  "when": "editorFocus"
-},
-{
-  "key": "ctrl+shift+l",
-  "command": "-editor.action.selectHighlights",
-  "when": "editorFocus"
-},
+
 
 // --- Markdown ---
 
@@ -199,6 +214,27 @@
   "key": "ctrl+b",
   "command": "md-shortcut.toggleBold",
   "when": "editorTextFocus && markdownShortcuts:enabled && resourceExtname == .md"
-}
+},
 
+
+{
+  "key": "alt+e c",
+  "command": "workbench.files.action.collapseExplorerFolders"
+},
+
+// --- AutoHotkey ---
+
+{
+  "key": "f1",
+  "command": "workbench.action.terminal.sendSequence",
+  "args": {
+    "text": "C:\\Users\\me\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe ${file}\u000D"
+  },
+  "when": "editorLangId == 'ahk' || editorLangId == 'ahk2'"
+},
+
+{
+  "key": "f1",
+  "command": "-workbench.action.showCommands"
+}
 ]

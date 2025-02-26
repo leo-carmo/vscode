@@ -1,0 +1,41 @@
+﻿[
+  {
+    "command": "python.runAndFocus",
+    "sequence": [
+      "python.execInTerminal-icon",
+      "workbench.action.terminal.focus"
+    ]
+  },
+  {
+    "command": "multiCommand.descapitalizarExpressoes",
+    "sequence": [
+      {
+        "command": "editor.action.selectAll"
+      },
+      {
+        "command": "editor.action.replaceAll",
+        "args": {
+          "find": " À Medida Que",
+          "replace": " à medida que",
+          "isRegex": true
+        }
+      },
+      {
+        "command": "editor.action.replaceAll",
+        "args": {
+          "find": " Para",
+          "replace": " para",
+          "isRegex": true
+        }
+      },
+      {
+        "command": "editor.action.replaceAll",
+        "args": {
+          "find": " Tanto Como",
+          "replace": " tanto como",
+          "isRegex": true
+        }
+      }
+    ]
+  }
+]
