@@ -156,11 +156,6 @@
   },
   "when": "editorTextFocus && !terminalFocus && editorLangId == 'python'"
 },
-// {
-//   "key": "ctrl+f9",
-//   "command": "python.runAndFocus",
-//   "when": "editorLangId == 'python'"
-// },
 {
   "key": "ctrl+alt+c",
   "command": "task.cancel",
@@ -222,6 +217,14 @@
   "command": "workbench.files.action.collapseExplorerFolders"
 },
 
+
+// --- Bash ---
+{
+  "key": "F1",
+  "command": "workbench.action.terminal.runActiveFile", 
+  "when": "resourceLangId == shellscript && remoteName == wsl"
+},
+
 // --- AutoHotkey ---
 
 {
@@ -236,5 +239,90 @@
 {
   "key": "f1",
   "command": "-workbench.action.showCommands"
-}
+},
+{
+  "key": "f1",
+  "command": "python.execInTerminal-icon",
+  "when": "editorTextFocus && editorLangId == 'python'"
+},
+{
+  "key": "ctrl+f9",
+  "command": "ahk++.run",
+  "when": "shellExecutionSupported && editorLangId == 'ahk' || shellExecutionSupported && editorLangId == 'ahk2'"
+},
+{
+  "key": "f1",
+  "command": "ahk++.run",
+  "when": "shellExecutionSupported && editorLangId == 'ahk' || shellExecutionSupported && editorLangId == 'ahk2'"
+},
+{
+  "key": "ctrl+f9",
+  "command": "-ahk++.run",
+  "when": "shellExecutionSupported && editorLangId == 'ahk' || shellExecutionSupported && editorLangId == 'ahk2' || shellExecutionSupported && editorLangId == 'ahk' && editorLangId == 'ahk2'"
+},
+{
+  "key": "ctrl+f2",
+  "command": "bookmarks.toggle",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+alt+k",
+  "command": "-bookmarks.toggle",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+alt+f2",
+  "command": "editor.action.changeAll",
+  "when": "editorTextFocus && !editorReadonly"
+},
+{
+  "key": "ctrl+f2",
+  "command": "-editor.action.changeAll",
+  "when": "editorTextFocus && !editorReadonly"
+},
+{
+  "key": "f2",
+  "command": "bookmarks.jumpToNext",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+alt+l",
+  "command": "-bookmarks.jumpToNext",
+  "when": "editorTextFocus"
+},
+{
+  "key": "shift+f2",
+  "command": "bookmarks.jumpToPrevious",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+alt+j",
+  "command": "-bookmarks.jumpToPrevious",
+  "when": "editorTextFocus"
+},
+{
+  "key": "ctrl+shift+f2",
+  "command": "bookmarks.clear"
+},
+{
+  "key": "alt+x",
+  "command": "editor.action.smartSelect.expand",
+  "when": "editorTextFocus"
+},
+{
+  "key": "shift+alt+right",
+  "command": "-editor.action.smartSelect.expand",
+  "when": "editorTextFocus"
+},
+// --- NeoVim ---
+{
+  "key": "alt+n",
+  "command": "vscode-neovim.restart",
+  "when": "editorTextFocus"
+},
+{
+  "key": "shift+alt+n",
+  "command": "vscode-neovim.stop",
+  "when": "editorTextFocus"
+},
 ]

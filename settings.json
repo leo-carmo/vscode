@@ -135,6 +135,7 @@
 // --- UI customization ---
   "vscode_custom_css.imports": [
   
+  
     "file:///C:/Users/me/AppData/Roaming/Code/User/ui.css"
   ],
   "workbench.activityBar.location": "top",
@@ -194,16 +195,24 @@
 
 "settingsSync.ignoredExtensions": [],
 
-"vim.useCtrlKeys": false,
 "explorer.confirmDragAndDrop": false,
 "editor.suggestOnTriggerCharacters": false,
 "editor.quickSuggestions": {
   "strings": "on",
   "comments": "on"
 },
-"workbench.colorTheme": "SynthWave '84",
+
+"workbench.colorTheme": "Default Dark+",
 "multiCommand.commands": {
   "$file": "multi-commands.json"
 },
-"python.languageServer": "Pylance"
+
+"python.languageServer": "Pylance",
+"extensions.experimental.affinity": {
+  "asvetliakov.vscode-neovim": 1
+},
+
+"vscode-neovim.ctrlKeysForInsertMode": [],
+"workbench.startupEditor": "none",
+"markdown-preview-enhanced.liveUpdate": false
 }
